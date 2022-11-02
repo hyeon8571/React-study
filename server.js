@@ -37,9 +37,9 @@ app.get("/", mainPage); // 기본페이지 get요청
 app.get("/users", listUsers); // /users get 요청
 app.post("/users", addUser); // /users post 요청
 
-app.listen(65010, () => {
+app.listen(65020, () => {
     console.log("---------------------");
     console.log("(리액트 연동용) 웹서버 실행중 ... ");
-    console.log("접속주소: http://localhost:65010/");
+    console.log("접속주소: http://localhost:65020/");
     console.log("---------------------");
 })
