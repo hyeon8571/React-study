@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import User from './homework9-2/User';
+import PageColor from './homework10-1/PageColor';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <User />
+    <PageColor />
 );
 
 // If you want to start measuring performance in your app, pass a function
